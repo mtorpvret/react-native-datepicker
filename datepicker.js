@@ -274,6 +274,7 @@ class DatePicker extends Component {
           <Modal
             transparent={true}
             animationType="none"
+            useNativeDriver="true"
             visible={this.state.modalVisible}
             supportedOrientations={SUPPORTED_ORIENTATIONS}
             onRequestClose={() => {this.setModalVisible(false);}}
